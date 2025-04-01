@@ -71,6 +71,7 @@
     }
 
     .meio h1 {
+        -webkit-text-stroke: #ffffff;
         font-size: 2rem;
     }
 
