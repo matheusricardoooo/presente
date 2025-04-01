@@ -1,4 +1,4 @@
-.part2 {
+.part3 {
     display: flex;
     align-items: center;
     text-align: center;
@@ -7,63 +7,61 @@
     width: 90%;
     padding-top: 20px;
     padding-bottom: 40px;
-    margin-left: 70px;
-    margin-top: 2px;
+
 }
 
-.esquerda3 img {
-    width: 289px;
-    height: 353px;
-    margin-top: 25px;
+.esquerda4 img {
+    width: 350px;
+    height: 500px;
+    margin-top: 20px;
     border: 5px solid #ffffff;
     border-radius: 20px;
     filter: grayscale(40%);
 }
 
-.text2 p {
+.text4 p {
     font-family: "Archivo Black", serif;
-    width: 635px;
-    font-size: 1.2rem;
-    margin-top: 25px;
+    width: 400px;
+    font-size: 2rem;
     text-align: start;
+    margin-top: 25px;
 }
 
 @media screen and (max-width: 1024px) {
 
-    .part2 {
+    .part3 {
         margin-left: 50px;
         margin-top: 5px;
     }
 
-    .text2 p {
+    .esquerda4 img {
         width: 300px;
-        font-size: 0.8rem;
+        height: 400px;
     }
 
-    .esquerda3 img {
-        margin-right: 20px;
+    .text4 p {
+        width: 300px;
+        font-size: 1.6rem;
     }
 }
 
 @media screen and (max-width: 500px) {
 
-    .part2 {
+    .part3 {
         padding-left: 20px;
         margin-left: 25px;
         margin-top: 5px;
     }
 
-    .esquerda3 img {
-        width: 150px;
-        height: 150px;
-        margin-left: 5px;
+    .esquerda4 img {
+        width: 190px;
+        height: 350px;
         border: 3px solid #ffffff;
     }
 
-    .text2 p {
-        width: 150px;
-        font-size: 0.5rem;
+    .text4 p {
+        font-size: 0.7rem;
+        width: 90px;
         color: #ffffff;
-        margin-right: 10px;
     }
 }
